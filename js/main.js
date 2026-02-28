@@ -18,7 +18,7 @@ class AquaHeader extends HTMLElement {
         <div class="container">
           <a href="index.html">
             <div class="logo">
-                <img src="img/logo principal.png" alt="Aqua Engenharia">
+                <img src="img/logo sem circulo.png" alt="Aqua Engenharia">
             </div>
           </a>
 
@@ -59,7 +59,7 @@ class AquaFooter extends HTMLElement {
         <footer class="footer">
         <div class="container footer-grid">
             <div class="footer-col">
-                <img src="img/logo sem circulo.png" alt="Logo" style="height: 40px; margin-bottom: 10px;">
+                <img src="img/logo sem circulo.png" alt="Logo" style="height: 65px; margin-bottom: 10px;">
                 <p>Especialistas em engenharia de tratamento de água com alto desempenho.</p>
             </div>
             <div class="footer-col">
@@ -74,7 +74,7 @@ class AquaFooter extends HTMLElement {
             <div class="footer-col">
                 <h4>CONTATO</h4>
                 <ul>
-                    <li>Telefone: <a href="tel:+5521981416653">(21) 98141-6653</a></li>
+                    <li>Telefone: <a href="tel:+552126588496">(21) 2658-8496</a></li>
                     <li>WhatsApp: <a href="https://wa.me/5521981416653" target="_blank">(21) 98141-6653</a></li>
                     <li>E-mail: <a href="mailto:contato@aquaengenharia.com.br">contato@aquaengenharia.com.br</a></li>
                 </ul>
@@ -93,6 +93,12 @@ class AquaFooter extends HTMLElement {
             </div>
             </div>
     </footer>
+
+        <a href="https://wa.me/5521981416653?text=Olá! Vim através do site e gostaria de mais informações sobre tratamento de água." class="whatsapp-fixo" target="_blank"
+        rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+
+    </a>
         `;
   }
 }
